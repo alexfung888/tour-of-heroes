@@ -1,18 +1,15 @@
 {
-  "name": "angular-quickstart",
+  "name": "tour-of-heroes",
   "version": "1.0.0",
+  "description": "Angular2 Tutorial: Tour of Heroes",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
+  "repository": "https://github.com/alexfung888/tour-of-heroes.git",
   "dependencies": {
     "@angular/common": "~2.1.1",
     "@angular/compiler": "~2.1.1",
