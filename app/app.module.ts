@@ -25,7 +25,12 @@ import { RouterModule }   from '@angular/router';
       {
         path: 'dashboard',
         component: DashboardComponent
+      },
+      {
+        path: 'detail/:id',
+        component: HeroDetailComponent
       }
+      
     ])
   ],
   declarations: [
